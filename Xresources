@@ -43,7 +43,6 @@ URxvt.urgentOnBell:     true
 
 ! Extensions
 URxvt.perl-ext-common:      default,matcher,clipboard
-URxvt.keysym.M-u:           perl:url-select:select_next
 URxvt.url-launcher:  /usr/bin/chromium
 URxvt.underlineURLs: true
 URxvt.matcher.button: 1
