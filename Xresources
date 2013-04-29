@@ -1,0 +1,58 @@
+!
+! .Xdefaults
+!
+
+URxvt.scrollBar:    none
+URxvt.depth:        32
+URxvt.geometry:     92x28
+URxvt.iconFile:     /usr/share/icons/Faenza/apps/scalable/Terminal.svg
+
+! Colors
+*foreground: #e5e5e5
+*background: #1d1d1d
+URxvt*background: rgba:0000/0000/0000/df00
+URxvt*cursorColor: #FFF9EC
+URxvt*colorBD: #ffffff
+!Black
+*color0: #323232
+*color8: #404040
+!Red
+*color1: #a35b66
+*color9: #ab6b74
+!Green
+*color2: #99ab6f
+*color10: #acb792
+!Yellow
+*color3: #ca9733
+*color11: #ccaa69
+!Blue
+*color4: #495d6e
+*color12: #687987
+!Magenta
+*color5: #825969
+*color13: #977381
+!Cyan
+*color6: #839191
+*color14: #98A4A4
+!White
+*color7: #E0E0E0
+*color15: #e5e5e5
+
+! Urgency
+URxvt.urgentOnBell:     true
+
+! Extensions
+URxvt.perl-ext-common:      default,url-select,clipboard
+URxvt.keysym.M-u:           perl:url-select:select_next
+URxvt.url-select.launcher:  /usr/bin/firefox -new-tab
+URxvt.url-select.underline: true
+
+! Input method
+URxvt.inputMethod:  ibus
+URxvt.preeditType:  OverTheSpot
+
+! Fonts
+URxvt*font: xft:Dina:regular:size=10, xft:Migu 1M:regular:size=10, xft:Droid Sans Fallback:regular:size=10
+URxvt*boldFont: xft:Dina:bold:size=10, xft:Migu 1M:regular:size=120, xft:Droid Sans Fallback:bold:size=10
+
+! vim: set filetype=xdefaults :
