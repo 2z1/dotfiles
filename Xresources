@@ -10,7 +10,7 @@ URxvt.iconFile:     /usr/share/icons/Faenza/apps/scalable/Terminal.svg
 ! Colors
 *foreground: #e5e5e5
 *background: #1d1d1d
-URxvt*background: rgba:0000/0000/0000/df00
+URxvt*background: rgba:1d00/1d00/1d00/df00
 URxvt*cursorColor: #FFF9EC
 URxvt*colorBD: #ffffff
 !Black
