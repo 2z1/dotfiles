@@ -29,8 +29,9 @@ ZSH_THEME="fishy"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git vim vi-mode history-substring-search zsh-syntax-highlighting)
+plugins=(archlinux git vim vi-mode history-substring-search zsh-syntax-highlighting emoji-clock)
 source $ZSH/oh-my-zsh.sh
+. /usr/share/zsh/site-contrib/powerline.zsh
 
 # Customize to your needs...
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/Code/bin
@@ -39,7 +40,6 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/Code/
 autoload -U zmv
 export EDITOR=vim
 export VISUAL=vim
-export VBOX_USB=usbfs
 
 # Aliases
 alias ls='ls -F --color'

@@ -1,5 +1,5 @@
 !
-! .Xdefaults
+! .Xresources
 !
 
 URxvt.scrollBar:    none
@@ -43,7 +43,7 @@ URxvt.urgentOnBell:     true
 
 ! Extensions
 URxvt.perl-ext-common:      default,matcher,clipboard
-URxvt.url-launcher:  /usr/bin/google-chrome
+URxvt.url-launcher:  /usr/sbin/firefox
 URxvt.underlineURLs: true
 URxvt.matcher.button: 1
 
@@ -52,7 +52,7 @@ URxvt.inputMethod:  ibus
 URxvt.preeditType:  OverTheSpot
 
 ! Fonts
-URxvt*font: xft:Dina:regular:size=10, xft:Migu 1M:regular:size=10, xft:Droid Sans Fallback:regular:size=10
-URxvt*boldFont: xft:Dina:bold:size=10, xft:Migu 1M:regular:size=120, xft:Droid Sans Fallback:bold:size=10
+URxvt*font: xft:Dina:regular:size=10, xft:Migu 1M:regular:size=10, xft:Menlo for Powerline:regular:size=10,  xft:Droid Sans Fallback:regular:size=10
+URxvt*boldFont: xft:Dina:bold:size=10, xft:Migu 1M:regular:size=120, xft:Menlo for Powerline:bold:size=10, xft:Droid Sans Fallback:bold:size=10
 
 ! vim: set filetype=xdefaults :

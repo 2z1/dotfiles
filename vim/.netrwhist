@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/alex/.oh-my-zsh'
 let g:netrw_dirhist_2='/home/alex/.mplayer'
 let g:netrw_dirhist_3='/usr/share/themes/Blackbird/gtk-2.0'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/alex/.ncmpcpp'
 let g:netrw_dirhist_6='/home/alex/.mplayer'
 let g:netrw_dirhist_7='/home/alex/.vimperator'
 let g:netrw_dirhist_8='/home/alex/.nv'
+let g:netrw_dirhist_9='/home/alex/.local/share/applications'

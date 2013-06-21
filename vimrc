@@ -24,6 +24,16 @@ set autoread
 
 set so=7
 
+" Line breaks
+set textwidth=74
+set formatoptions=t1
+
+augroup PROSE
+    autocmd InsertEnter * set formatoptions+=a
+    autocmd InsertLeave * set formatoptions-=a
+augroup END
+
+noremap Q gqap
 
 " Searching
 set ignorecase
