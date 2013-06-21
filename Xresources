@@ -42,10 +42,13 @@ URxvt*colorBD: #ffffff
 URxvt.urgentOnBell:     true
 
 ! Extensions
-URxvt.perl-ext-common:      default,matcher,clipboard
+URxvt.perl-ext-common: default,matcher,clipboard
 URxvt.url-launcher:  /usr/sbin/firefox
 URxvt.underlineURLs: true
 URxvt.matcher.button: 1
+
+! Buffer
+URxvt*buffered: false
 
 ! Input method
 URxvt.inputMethod:  ibus
