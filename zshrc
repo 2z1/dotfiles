@@ -31,9 +31,11 @@ ZSH_THEME="fishy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(archlinux git vim vi-mode history-substring-search zsh-syntax-highlighting emoji-clock)
 source $ZSH/oh-my-zsh.sh
+. /usr/share/zsh/site-contrib/powerline.zsh
 
 # Customize to your needs...
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:~/Code/bin
+export PYTHONPATH=/usr/lib/python3.3/site-packages
 
 # Other very important settings
 autoload -U zmv
