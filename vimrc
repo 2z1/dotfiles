@@ -28,10 +28,22 @@ set so=7
 set textwidth=74
 set formatoptions=t1
 
-"augroup PROSE
-"    autocmd InsertEnter * set formatoptions+=a
-"    autocmd InsertLeave * set formatoptions-=a
-"augroup END
+
+" WP mode
+func! WordProcessorMode()
+    map j gj
+    map k gk
+    setlocal spell spelllang=en_us
+    setlocal noexpandtab
+    set complete+=s
+    setlocal wrap
+    setlocal linebreak
+    augroup PROSE
+        autocmd InsertEnter * set formatoptions+=a
+        autocmd InsertLeave * set formatoptions-=a
+    augroup END
+endfu
+com! WP call WordProcessorMode()
 
 noremap Q gqap
 

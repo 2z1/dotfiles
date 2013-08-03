@@ -9,34 +9,33 @@ URxvt.iconFile:     /usr/share/icons/Faenza/apps/scalable/Terminal.svg
 
 ! Colors
 *foreground: #e5e5e5
-*background: #2d2d2d
-URxvt*background: rgba:2d00/2d00/2d00/ed00
+*background: #1e1e1e
 URxvt*cursorColor: #FFF9EC
 URxvt*colorBD: #ffffff
-!Black
-*color0: #323232
-*color8: #404040
-!Red
-*color1: #a35b66
-*color9: #ab6b74
-!Green
-*color2: #99ab6f
-*color10: #acb792
-!Yellow
-*color3: #ca9733
-*color11: #ccaa69
-!Blue
-*color4: #495d6e
-*color12: #687987
-!Magenta
-*color5: #825969
-*color13: #977381
-!Cyan
-*color6: #839191
-*color14: #98A4A4
-!White
-*color7: #E0E0E0
-*color15: #e5e5e5
+!black
+*color0:     #101010
+*color8:     #404040
+!red
+*color1:     #E84F4F
+*color9:     #D23D3D
+!green
+*color2:     #B8D68C
+*color10:    #A0CF5D
+!yellow
+*color3:     #E1AA5D
+*color11:    #F39D21
+!blue
+*color4:     #7DC1CF
+*color12:    #4E9FB1
+!magenta
+*color5:     #9B64FB
+*color13:    #8542FF
+!cyan
+*color6:     #6D878D
+*color14:    #42717B
+!white
+*color7:     #dddddd
+*color15:    #dddddd
 
 ! Urgency
 URxvt.urgentOnBell:     true
