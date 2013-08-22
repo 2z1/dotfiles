@@ -4,7 +4,7 @@
 
 URxvt.scrollBar:    none
 URxvt.depth:        32
-URxvt.geometry:     92x28
+URxvt.geometry:     90x28
 URxvt.iconFile:     /usr/share/icons/Faenza/apps/scalable/Terminal.svg
 
 ! Colors
