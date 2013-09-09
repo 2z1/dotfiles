@@ -9,7 +9,7 @@ URxvt.iconFile:     /usr/share/icons/Faenza/apps/scalable/Terminal.svg
 
 ! Colors
 *foreground: #D7D0C7
-*background: #1e1e1e
+*background: #2d2d2d
 URxvt*cursorColor: #FFF9EC
 URxvt*colorBD: #ffffff
 !black
@@ -54,6 +54,6 @@ URxvt.inputMethod:  ibus
 URxvt.preeditType:  OverTheSpot
 
 ! Fonts
-URxvt*font: xft:Dina:size=10, xft:Menlo for Powerline:size=10, xft:Migu 1M:size=10
+URxvt*font: xft:Dina:size=10, xft:Migu 1M:size=10
 
 ! vim: set filetype=xdefaults :
