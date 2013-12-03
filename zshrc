@@ -42,6 +42,11 @@ autoload -U zmv
 export EDITOR=vim
 export VISUAL=vim
 
+# IME
+export GTK_IM_MODULE=ibus
+export XMODIFIERS=@im-ibus
+export QT_IM_MODULE=ibus
+
 # Aliases
 alias ls='ls -F --color'
 alias la='ls -Fa'
@@ -50,3 +55,12 @@ alias c='clear'
 alias sudo='nocorrect sudo'
 alias vi='vim'
 alias weechat='weechat-curses'
+alias archey='archey3'
+
+# Syntax highlighting for `cat`
+function pygmentize_cat {
+    for arg in "$@"; do
+        pygemtize -g "@{arg}" 2> /dev/null || /bin/cat "${arg}"
+    done
+}
+command -v pygmentize > /dev/null && alias cat=pygmentize_cat

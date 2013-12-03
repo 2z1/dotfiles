@@ -4,7 +4,7 @@
 
 URxvt.scrollBar:    none
 URxvt.depth:        32
-URxvt.geometry:     90x28
+URxvt.geometry:     90x26
 URxvt.iconFile:     /usr/share/icons/Faenza/apps/scalable/Terminal.svg
 
 ! Colors
@@ -46,6 +46,9 @@ URxvt.url-launcher:  /usr/sbin/firefox
 URxvt.underlineURLs: true
 URxvt.matcher.button: 1
 
+! Enable Scroll Lock
+XTerm.allowScrollLock: true
+
 ! Buffer
 URxvt*buffered: false
 
@@ -54,6 +57,6 @@ URxvt.inputMethod:  ibus
 URxvt.preeditType:  OverTheSpot
 
 ! Fonts
-URxvt*font: xft:Dina:size=10, xft:Migu 1M:size=10
+URxvt*font: xft:Dina:size=9, xft:Migu 1M:size=10
 
 ! vim: set filetype=xdefaults :
